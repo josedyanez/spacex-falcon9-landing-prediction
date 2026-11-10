@@ -76,16 +76,11 @@ For each model, several hyperparameter combinations were evaluated on the traini
 
 ---
 
-## ▶️ How to run
+## ▶️ About running the code
 
-```bash
-git clone https://github.com/josedyanez/spacex-falcon9-landing-prediction.git
-cd spacex-falcon9-landing-prediction
-pip install pandas numpy requests beautifulsoup4 matplotlib seaborn folium dash scikit-learn jupyter
-```
+The notebooks were built in the IBM Skills Network lab environment (some in JupyterLite, which runs Python in the browser). Executed outputs are saved in each notebook, so results and charts can be reviewed directly on GitHub without running anything.
 
-- Open the notebooks with Jupyter in the order shown in the pipeline table above.
-- Run the dashboard with `python dash_spaceX.py` and open the local address it prints.
+Running them locally may need small changes: some cells download the course datasets from IBM URLs, and JupyterLite-specific install cells (`piplite`) do not apply in a regular Jupyter setup.
 
 ---
 
